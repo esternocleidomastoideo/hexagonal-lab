@@ -1,4 +1,4 @@
-package com.araujo.hexagonal_sample;
+package com.araujo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
