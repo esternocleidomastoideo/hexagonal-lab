@@ -16,7 +16,8 @@ public class UsuarioService implements UsuarioUseCase {
     }
 
     @Override
-    public void cadastrarUsuario(Usuario usuario) {
+    public Usuario cadastrarUsuario(Usuario usuario) {
         usuarioRepository.salvar(usuario);
+        return usuario;
     }
 }
