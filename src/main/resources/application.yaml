@@ -1,8 +1,9 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres?defaultSchema="iep"
+    url: jdbc:postgresql://localhost:5432/hexagonal
     username: postgres
-    password: admin123
+    password: postgres
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
